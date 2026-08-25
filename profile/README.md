@@ -8,7 +8,6 @@
 
 </div>
 
-> 📌 이 README의 이미지들은 `docs/images/` 폴더에 함께 제공된 파일을 참조합니다. 레포에 반영할 때 `readme-images/`의 내용을 `docs/images/`에 넣어주세요.
 
 ---
 
@@ -48,36 +47,27 @@
 
 <table>
   <tr>
-    <td align="center"><img src="docs/images/member1.png" width="120"><br><b>이름</b></td>
-    <td align="center"><img src="docs/images/member2.png" width="120"><br><b>이름</b></td>
-    <td align="center"><img src="docs/images/member3.png" width="120"><br><b>이름</b></td>
-    <td align="center"><img src="docs/images/member4.png" width="120"><br><b>이름</b></td>
-    <td align="center"><img src="docs/images/member4.png" width="120"><br><b>이름</b></td>
+    <td align="center"><img src="https://github.com/slowsteadyman.png?size=120" width="120"><br><b>최규진</b></td>
+    <td align="center"><img src="https://github.com/yerimming.png?size=120" width="120"><br><b>김예림</b></td>
+    <td align="center"><img src="https://github.com/hyobin13.png?size=120" width="120"><br><b>전효빈</b></td>
+    <td align="center"><img src="https://github.com/jinwoojwa.png?size=120" width="120"><br><b>좌진우</b></td>
+    <td align="center"><img src="https://github.com/Rockernun.png?size=120" width="120"><br><b>박병욱</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/GitHub아이디">@GitHub아이디</a></td>
-    <td align="center"><a href="https://github.com/GitHub아이디">@GitHub아이디</a></td>
-    <td align="center"><a href="https://github.com/GitHub아이디">@GitHub아이디</a></td>
-    <td align="center"><a href="https://github.com/GitHub아이디">@GitHub아이디</a></td>
-    <td align="center"><a href="https://github.com/GitHub아이디">@GitHub아이디</a></td>
+    <td align="center"><a href="https://github.com/slowsteadyman">slowsteadyman</a></td>
+    <td align="center"><a href="https://github.com/yerimming">yerimming</a></td>
+    <td align="center"><a href="https://github.com/hyobin13">Hyobin</a></td>
+    <td align="center"><a href="https://github.com/jinwoojwa">Jinwoo</a></td>
+    <td align="center"><a href="https://github.com/Rockernun">Rockernun</a></td>
   </tr>
   <tr>
-    <td align="center">역할</td>
-    <td align="center">역할</td>
-    <td align="center">역할</td>
-    <td align="center">역할</td>
-    <td align="center">역할</td>
-  </tr>
-  <tr>
-    <td align="center"><sub>담당 기능<br>· <br>· </sub></td>
-    <td align="center"><sub>담당 기능<br>· <br>· </sub></td>
-    <td align="center"><sub>담당 기능<br>· <br>· </sub></td>
-    <td align="center"><sub>담당 기능<br>· <br>· </sub></td>
-    <td align="center"><sub>담당 기능<br>· <br>· </sub></td>
+    <td align="center"><b>Team Lead</b>, PM, Frontend/Backend</td>
+    <td align="center">Frontend/Backend, UI/UX</td>
+    <td align="center">Frontend/Backend, UI/UX</td>
+    <td align="center">Frontend/Backend, Git Lead(Frontend)</td>
+    <td align="center">Backend, CI/CD, Infra, Git Lead(Backend)</td>
   </tr>
 </table>
-
-> 프로필 이미지가 없으면 `<img>` 줄을 지우거나, `src`를 `https://github.com/<아이디>.png?size=120`으로 바꾸면 GitHub 아바타가 바로 표시됩니다.
 
 ---
 
@@ -85,11 +75,10 @@
 
 | 구분 | 기간 |
 | --- | --- |
-| 기획 및 설계 | 2026.07 ~ |
-| 개발 (구현) | 2026.07 ~ 2026.08 |
-| 배포 및 시연 | 2026.08 |
+| 기획 및 설계 | 2026.07.09 ~ 2026.07.22|
+| 개발 (구현) | 2026.07.23 ~ 2026.08.24 |
+| 배포 및 시연 | 2026.08.26 |
 
-> 실제 팀 일정에 맞게 날짜를 조정하세요.
 
 ---
 
@@ -155,7 +144,6 @@
 - PR은 **최소 1인 이상의 리뷰 승인** 후 머지합니다.
 - 프론트엔드는 `Husky + lint-staged`로 커밋 시 자동 린트, 포맷을 강제합니다.
 
-> 상세 워크플로/컨벤션 문서: 프론트 `docs/workflow.md`, `docs/coding-convention.md` · 백엔드 `Onboarding.md`
 
 ---
 
@@ -234,17 +222,21 @@ feat: 자산 동기화 비동기 전환
 **PR 본문 템플릿**
 
 ```markdown
-## 🔎 변경 사항
-- 핵심 변경 요약
+## #️⃣연관된 이슈
 
-## 🧪 테스트 / 확인 방법
-- 어떻게 동작을 확인했는지
+> ex) #이슈번호
 
-## 🔗 관련 이슈
-- Closes #42
+## 📝작업 내용
 
-## 💬 리뷰 포인트
-- 리뷰어가 집중해서 봐줬으면 하는 부분
+> 이번 PR에서 작업한 내용을 상세하게 설명해주세요(이미지 첨부 가능)
+
+### 스크린샷 (선택)
+
+## 💬리뷰 요구사항(선택)
+
+> 리뷰어가 특별히 봐주었으면 하는 부분이 있다면 작성해주세요
+>
+> ex) 메서드 XXX의 이름을 더 잘 짓고 싶은데 혹시 좋은 명칭이 있을까요?
 ```
 
 **규칙**
@@ -262,11 +254,9 @@ feat: 자산 동기화 비동기 전환
 
 ## 9. 시스템 아키텍처
 
-<div align="center">
-  <img src="docs/images/architecture.png" width="820" alt="시스템 아키텍처">
-</div>
+<img width="3611" height="2357" alt="architecture" src="https://github.com/user-attachments/assets/3f0fb77f-bdc3-4381-8d07-35e4b36dead9" />
 
-**핵심 설계** - 서비스 특성에서 출발해 필요한 것만 근거를 갖고 골랐습니다.
+
 
 - **3-Tier 네트워크 격리**: VPC(`10.0.0.0/16`)를 Public / App(Private) / Data(Private) 세 계층으로 분리하고, App과 Data 계층에는 **공인 IP를 부여하지 않아** 인터넷에서 직접 접근할 수 없게 했습니다.
 - **NAT Instance (아웃바운드 전용)**: 외부 API 호출은 나가되 인바운드는 차단하고 아웃바운드가 적은 특성에 맞춰 NAT Gateway 대신 **NAT Instance로 비용을 절감**했습니다.
