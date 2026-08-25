@@ -1,3 +1,6 @@
+<img width="8890" height="5015" alt="main" src="https://github.com/user-attachments/assets/c045c28e-c618-4fa8-b43b-fadf70c01b2c" />
+
+
 <div align="center">
 
 # 🏕️ [나갔음 청년](https://www.nagasseum.com)
