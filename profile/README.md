@@ -261,6 +261,7 @@ feat: 자산 동기화 비동기 전환
 
 
 - **3-Tier 네트워크 격리**: VPC(`10.0.0.0/16`)를 Public / App(Private) / Data(Private) 세 계층으로 분리하고, App과 Data 계층에는 **공인 IP를 부여하지 않아** 인터넷에서 직접 접근할 수 없게 했습니다.
+
 - **NAT Instance (아웃바운드 전용)**: 외부 API 호출은 나가되 인바운드는 차단하고 아웃바운드가 적은 특성에 맞춰 NAT Gateway 대신 **NAT Instance로 비용을 절감**했습니다.
 - **Multi-AZ 이중화**: 2개 가용영역에 걸쳐 배치, RDS Multi-AZ로 장애 시 자동 승격되도록 처리했습니다.
 - **관리 접근은 SSM**: SSH(22)를 열지 않고 AWS SSM Session Manager로 접속하도록 했습니다 *(CIS AWS Foundations Benchmark 네트워킹 권고 준수)*
